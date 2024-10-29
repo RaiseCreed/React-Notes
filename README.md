@@ -15,6 +15,7 @@ This a simple React-based notes app that allows You to create text notes stored 
 
 - Creating / Updating / Deleting Text notes
 - Notes are stored locally in LocalStorage
+- react-split allows to resize left panel
 
 ## Run Locally
 
