@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'RocknRoll One';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 150px;
+  background-color: #facdd4;
+}
+
+.gutter{
+  background-color: #7A3536;
+  border-bottom-left-radius: 15px;
+}
+
+.gutter-horizontal{
+  cursor: col-resize;
+}
+
+
+.taskTile{
+  height:96px;
+  color:white;
+  display:flex;
+  align-items: center;
+  text-align:center;
+  padding-left:15px; 
+  font-size:24px; 
+  flex-direction:row;
+  justify-content:space-between;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.taskTile:hover{
+  background-color: #3F3F3F !important;
+}
+
